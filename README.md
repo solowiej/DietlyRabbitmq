@@ -8,6 +8,6 @@ In oder to run the project :
 5. mvn spring-boot:run
 
 To stop and remove all working containers
-docker stop $(docker ps -a -q)
-docker rm $(docker ps -a -q)
+- docker stop $(docker ps -a -q)
+- docker rm $(docker ps -a -q)
 
