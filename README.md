@@ -11,3 +11,7 @@ To stop and remove all working containers
 - docker stop $(docker ps -a -q)
 - docker rm $(docker ps -a -q)
 
+
+The application has been tested on H2 Database as well as locally on MySql. 
+
+
