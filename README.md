@@ -1,9 +1,12 @@
-
-In oder to run the project :
-
 1. open cmd
 2. cd c:/project (go to your project root folder)
+
+In order to start rabbitmq service, launch the docker-compose :
+
 3. docker-compose up
+
+In order to run the project:
+
 4. mvn clean install
 5. mvn spring-boot:run
 
